@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+.react-star {
+  display: inline-block;
+  font-size: 24px;
+  direction: rtl;
+  .star {
+    color: #ddd;
+    cursor: pointer;
+    &:hover,
+    &:hover ~ .star,
+    &.active,
+    &.active ~ .star {
+      color: orange;
+    }
+  }
+}
