@@ -7,7 +7,7 @@ var path = require('path');
 module.exports = {
 
   entry: [
-    // 'webpack/hot/dev-server',
+    'webpack/hot/dev-server',
     path.resolve(__dirname, 'example/index.jsx')
   ],
 

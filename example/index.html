@@ -7,6 +7,15 @@
 
 <body>
   <!-- <script src="http://localhost:8080/webpack-dev-server.js"></script> -->
-  <script src="./index.js"></script>
+  <script src="https://cdn.bootcss.com/react/0.13.3/react-with-addons.min.js"></script>
+  <script src="../lib/index.min.js"></script>
+  <script>
+    var Star = React.createFactory(window['react-star']);
+
+    React.render(
+      Star(),
+      document.body
+    );
+  </script>
 </body>
 </html>

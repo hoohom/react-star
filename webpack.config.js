@@ -21,7 +21,12 @@ module.exports = {
   },
 
   externals: {
-    react: 'react'
+    react: {
+      root: 'React',
+      commonjs: 'react',
+      commonjs2: 'react',
+      amd: 'react'
+    }
   },
 
   module: {
